@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import WeatherCard from './components/WeatherCard'
-import Forecast from './components/Forecast'
+import Forecast from "./components/Forecast"
 
 function App() {
   const [city, setCity] = useState('')
